@@ -194,6 +194,11 @@ body {
         margin-bottom: 1rem;
     }
 
+    .about .row .about-img img {
+        width: 800px;
+        height: auto;
+    }
+
     /*Menu*/
     .Menu p,
     .contact p {
@@ -418,6 +423,13 @@ body {
             font-size: 55%;
         }
     }
+
+    @media (max-width: 375px) {
+        html {
+            font-size: 50%;
+        }
+    }
+
 
 
 
